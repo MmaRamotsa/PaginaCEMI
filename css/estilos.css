@@ -1,0 +1,56 @@
+html,body {
+	height: 100%;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;
+}
+
+.aniversario{
+	font-family: 'Frijole', cursive;
+	color: white;
+	text-align:center;
+	font-size: 2em;
+/* 	background-color: #8DC63F; */
+	background-color:#66038F; /*morado*/
+}
+h2{
+	color:#AE3FC6;
+}
+/* cambiar el color de fondo a la barra */
+nav.navbar {
+  background-color: #8DC63F;
+  border-color: #8DC63F;
+  border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#66038F; /*morado*/
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color:#66038F;
+}
+
+li.active>a{
+	background-color:#7db135;
+}
+.dropdown-menu {
+	background-color: #aed676;
+}
+.dropdown-menu  > li > a{
+	color:#66038F; /*morado*/
+}
+
+/* Set the fixed height of the footer here */
+#push, #footer {
+  height: 60px;
+}
+#footer {
+  background-color: #8DC63F;
+  color:#66038F;
+ }
