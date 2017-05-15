@@ -1,0 +1,14 @@
+{
+  "fotos": [
+    {
+      "url": "img/imagen1.jpg",
+      "titulo": "Estudio"
+    },{
+      "url": "img/imagen2.jpg",
+      "titulo": "Juegos"
+    },{
+      "url": "img/imagen3.jpg",
+      "titulo": "Hobbies"
+    }
+  ]
+}
