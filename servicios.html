@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Servicios</title>
 <!--======================================================================
 Autor: Maria Antonia Martínez García
 Fecha: 12/05/2017
@@ -7,7 +10,7 @@ Versión : v1.0
 ==========================================================================-->
 	<head>
 		<meta charset="UTF-8">
-		<title>CEMI Miranda</title>
+		<title>Nosotros</title>
   	<meta charset="UTF-8">
   	<meta name="author" content="MAMG">
   	<meta name="keywords" content:="cemi,formacion,profesional">
@@ -18,15 +21,16 @@ Versión : v1.0
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Frijole" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kreon" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   </head>
 </head>
 <body>
-	<div class="container-fluid" id="pagina">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-xs-1">
+			<div class="col-md-1">
 				<img src="img/logo.jpg" alt="Logo Cemi">
 			</div>
-			<div class="col-xs-11">
+			<div class="col-md-11">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-12 aniversario">
@@ -57,13 +61,13 @@ Versión : v1.0
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav">
-	        <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
-	        <li><a href="nosotros.html">Nosotros</a></li>
+	        <li><a href="index.html">Inicio </a></li>
+	        <li><a href="nosotros.html">Nosotros <span class="sr-only">(current)</span></a></li>
 	        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Servicios <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="servicios.html#clases-apoyo">Clases de apoyo</a></li>
-            <li><a href="#">Cursos</a></li>
+            <li><a href="cursos.html">Cursos</a></li>
             <li><a href="#">Formación para trabajadores</a></li>
             <li><a href="#">Formación para desempleados</a></li>
             <li><a href="#">Formación online</a></li>
@@ -76,41 +80,55 @@ Versión : v1.0
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
-<!-- -->
-<!-- Carousel -->
-	<div id="carrusel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#carrusel" data-slide-to="0" class="active"></li>
-      <li data-target="#carrusel" data-slide-to="1"></li>
-      <li data-target="#carrusel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox" id="lista-fotos">
-
-    </div>
-    <a class="left carousel-control" href="#carrusel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div><!-- /.carousel -->
-
-<!-- Carousel -->
-
-<div id="push"></div>
-<div id="footer">
-    <div class="container">
-      <p class="muted credit">&copy;2017</p>
-    </div>
-</div>
-	</div>
 
 <!-- -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/codigo.js"></script>
+       <!-- Page Heading/Breadcrumbs -->
+  <div class="row">
+      <div class="col-lg-12">
+          <ol class="breadcrumb">
+              <li><a href="index.html">Inicio</a>
+              </li>
+              <li class="active">Servicios</li>
+          </ol>
+      </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+     	<h2 class="page-header">Clases de apoyo</h2>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+        <div class="caption">
+          <h3>Clases de apoyo</h3>
+          <p>Impartimos clases de apoyo de <b>todas las asignaturas</b>: matemáticas, lengua española, lengua gallega, inglés, informática, plástica, tecnología, física, química, conocimiento del medio, ciencias sociales, historia, economía, biología, historia del arte, geografía, filosofía y dibujo.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail text-center">
+          <div class="caption">
+              <h3>Acceso a ciclos formativos</h3>
+              <p>Te preparamos para superar la prueba que te permita obtener el certificado de <b>acceso a ciclos formativos</b> de Formación Profesional sin necesidad de tener los requisitos académicos. Todas las especialidades. En algunas convocatorias conseguimos el 100% de aprobados.</p><br>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail text-center">
+          <div class="caption">
+              <h3>Informática</h3>
+              <p>Nuestra idea principal es una enseñanza más personalizada con <b>grupos reducidos</b> intentando introducir a nuestro alumnado a la informática de una forma divertida, amena y fácil.</p><br><br><br>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail text-center">
+          <div class="caption">
+              <h3>Oposiciones</h3>
+              <p>Nuestro principal objetivo es <b>responder a tus necesidades individuales</b>, por lo que ponemos a tu disposición material didáctico elaborado expresamente para cumplir los objetivos a corto y medio plazo y una serie de servicios que te ayuden a cumplir tu objetivo final, <b>aprobar una OPE</b>. Podrás preparar aquella que más se ajuste a tu perfil.</p>
+          </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

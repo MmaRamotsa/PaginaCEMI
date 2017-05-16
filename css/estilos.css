@@ -1,16 +1,31 @@
+/* COLORES UTILIZADOS
+VERDE:#8DC63F;
+VERDE MEDIO: #7DB135;
+VERDE CLARO:#AED676;
+MORADO:#66038F;
+MORADO MEDIO: #AE3FC6;
+MORADO CLARO:#E5C4EE;
+MORADO CASI BLANCO:#f6ebf9;
+*/
 html,body {
 	height: 100%;
 }
+h4{
+	color:#8DC63F;
+}
+h2, h3, h4{
+	font-family: 'Kreon', serif;
+}
 
 #pagina{
-  height: 100%;
+  height: 100vh;
 }
 
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
   height: auto !important;
-  height: 100%;
+  height: 100vh;
   /* Negative indent footer by it's height */
   margin: 0 auto -60px;
 }
@@ -19,7 +34,7 @@ html,body {
 	font-family: 'Frijole', cursive;
 	color: white;
 	text-align:center;
-	font-size: 2em;
+	font-size: 1.8em;
 /* 	background-color: #8DC63F; */
 	background-color:#66038F; /*morado*/
 }
@@ -28,7 +43,7 @@ h2{
 }
 /* cambiar el color de fondo a la barra */
 nav.navbar {
-  background-color: #8DC63F;
+  background-color: #8DC63F; /*^Verde pistacho*/
   border-color: #8DC63F;
   border-radius:0;
 }
@@ -44,13 +59,12 @@ li.active>a{
 	background-color:#7db135;
 }
 .dropdown-menu {
-	background-color: #aed676;
+	background-color: #aed676; /*verde claro*/
 }
 .dropdown-menu  > li > a{
 	color:#66038F; /*morado*/
 }
 
-/* Set the fixed height of the footer here */
 #push, #footer {
   height: 60px;
 }
@@ -78,5 +92,19 @@ li.active>a{
 	text-align: center;
 }
 .text-primary{
-	color:#8DC63F;
+	color:#8DC63F;/*verde*/
+}
+#myTab>li>a {
+	color:#8DC63F ;
+}
+#myTab>li>a:hover {
+	color:#AE3FC6;
+	background-color:#e5c4ee ;
+}
+#img-fachada{
+	background-color:#e5c4ee;
+	border-color: #e5c4ee;
+}
+.breadcrumb{
+	background-color:#f6ebf9;
 }
